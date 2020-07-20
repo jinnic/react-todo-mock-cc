@@ -2,11 +2,12 @@ import React from 'react'
 import ToDoCard from './ToDoCard'
 
 const CompletedContainer = (props) => {
-    return (
+   
+    return (   
         <div>
+            {/* {console.log('CompletedContainer props : ', props)} */}
             <h1>Completed Todos</h1>
-            {/* Render ToDo Card for each ToDo */}
-             {/* Which Array method can you use? */}
+            {props.todos.map(todo => <ToDoCard key={todo.id} todo={todo} button={'complete'}  updateTodo={props.updateTodo}/>)}
         </div>
     )
 }

@@ -3,17 +3,17 @@
     {
       "id": "1",
       "title": "Eat",
-      "completed": true
+      "completed": false
     },
     {
       "id": "2",
       "title": "Sleep",
-      "completed": false
+      "completed": true
     },
     {
       "id": "3",
       "title": "Listen to Eric talk about how much he loves Fortnite",
-      "completed": false
+      "completed": true
     },
     {
       "id": "4",
@@ -28,7 +28,7 @@
     {
       "id": "6",
       "title": "Educate Eric that Overwatch is better than Fortnite",
-      "completed": false
+      "completed": true
     },
     {
       "id": "7",
@@ -49,6 +49,16 @@
       "id": "10",
       "title": "Ignore Eric's request to play Fortnite with him",
       "completed": true
+    },
+    {
+      "title": "Do dishes",
+      "completed": false,
+      "id": "_qjv3eS"
+    },
+    {
+      "title": "Cook",
+      "completed": false,
+      "id": "8pmpb0f"
     }
   ]
 }
